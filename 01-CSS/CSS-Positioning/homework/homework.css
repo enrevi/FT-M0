@@ -41,4 +41,6 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 7: */
 #ejercicioSiete {
     display:flex;
+    flex-direction: column;
+    align-items: center;
 }
