@@ -3,26 +3,32 @@
 // 1
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "Hola";
+console.log(nuevaString);
 
 // 2
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 7;
+console.log(nuevoNum);
 
 // 3
 // Crea una variable booleana:
 const nuevoBool = true;
+console.log(nuevoBool);
 
 // 4
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
+console.log(nuevaResta);
 
 // 5
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40;
+console.log(nuevaMultiplicacion);
 
 // 6
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
+console.log(nuevoModulo);
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -134,14 +140,15 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return Math.pow (num, 3);
+  // return Math.pow (num, 3);
+  return num ** 3;
 }
 
 // 21
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-return Math.pow (num, exponent);
+  return Math.pow (num, exponent);
 }
 
 // 22
